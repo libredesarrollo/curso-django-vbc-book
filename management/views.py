@@ -41,6 +41,7 @@ class BookDetailFormView(DetailView):
     model=Book
     context_object_name="book" #object
     template_name='book/detail.html'
+    
 class BookListFormView(ListView):
     model=Book
     context_object_name="books" #object_list
